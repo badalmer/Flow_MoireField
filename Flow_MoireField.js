@@ -13,7 +13,7 @@ function setup() {
   
   seedInput = createInput(seed.toString());
   seedInput.position(10, 10);
-  seedInput.size(windowWidth-25);
+  seedInput.size(windowWidth-50);
   seedInput.changed(updateSeed);
   
   textAlign(CENTER);
